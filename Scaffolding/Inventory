@@ -13,10 +13,11 @@
 
 [CloudVMs]
 # Replace the lines below with actual IP addresses of the VMs after they are created
-192.168.5.81 ansible_user=cc
-192.168.5.110 ansible_user=cc
-192.168.5.191 ansible_user=cc
-192.168.5.106 ansible_user=cc
+192.168.5.54 ansible_user=cc
+192.168.5.135 ansible_user=cc
+192.168.5.41 ansible_user=cc
+192.168.5.251 ansible_user=cc
+
 # 192.168.5.2 ansible_user=cc
 # 192.168.5.3 ansible_user=cc
 
