@@ -14,6 +14,13 @@
   vars:
     ansible_python_interpreter: /usr/bin/python3
 
+- name: "Install Java for Zookeeper and Kafka"
+  apt:
+    name: openjdk-11-jdk
+    state: present
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+
 - name: "Install required apt packages"
   apt:
     name: "{{ item }}"
